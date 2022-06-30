@@ -1,0 +1,75 @@
+.mid {
+  height: 100vh;
+  /* change */
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+.lefty {
+  width: 40vw;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+.lefty > h1 {
+  margin-bottom: 10px;
+  font-family: Product Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0.0188em;
+  text-align: left;
+  color: rgba(153, 33, 232, 1);
+}
+.lefty > p {
+  height: 44px;
+  width: 290px;
+  font-family: Product Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(13, 13, 13, 1);
+  margin-bottom: 20px;
+}
+.enrolbtn{
+    border: 1.8px solid rgba(95, 114, 190, 1);
+    color:rgba(95, 114, 190, 1);
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 5px;
+    width: 128px;
+    text-align: center;
+}
+.righty {
+  width: 50vw;
+  display: flex;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elem>span{
+    font-weight: 600;
+    font-size: 14px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.r1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}

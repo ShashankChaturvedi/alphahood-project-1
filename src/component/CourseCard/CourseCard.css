@@ -1,0 +1,52 @@
+.hold {
+  width: 278px;
+  height: 300px;
+  left: 64px;
+  top: 900px;
+  background: rgba(217, 217, 217, 0.25);
+  box-shadow: 5px 25px 60px rgba(13, 13, 13, 0.277);
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+.hold:hover{
+    transform: translateY(-1vmax);
+}
+img {
+  width: 278px;
+  height: 142px;
+  border-radius: 12px;
+}
+.detail{
+    padding: 4px 18px;
+}
+.span{
+    margin-top: 3px;
+    display: flex;
+    font-size:14px;
+    font-weight: 500;
+    width: fit-content;
+}
+.name{
+    margin-top: 9px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.spansvg{
+    padding-right: 3px;
+}
+.ratingspan{
+    margin-right: 8px;
+    position: relative;
+    bottom: 11px;
+}
+.enrollnow{
+    position: relative;
+    bottom: -7px;
+    border: 1.8px solid rgba(95, 114, 190, 1);
+    color:rgba(95, 114, 190, 1);
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 6px 24px;
+}
